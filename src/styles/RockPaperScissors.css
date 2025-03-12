@@ -1,0 +1,66 @@
+.rps-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 30px auto;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.choice-btn {
+  background: linear-gradient(135deg, #ff8c00, #ff2e63);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.choice-btn:hover {
+  background: linear-gradient(135deg, #ff2e63, #ff8c00);
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.results p {
+  font-size: 18px;
+}
+
+h2 {
+  margin-top: 10px;
+  color: red;
+}
+
+.back-button {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.back-button:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
